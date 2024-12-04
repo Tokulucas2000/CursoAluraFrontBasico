@@ -87,7 +87,11 @@ body{
     color: var(--cinza-secundario);
 }
 
-.terceiro{
-    align-items: center;
-    margin: 0 10em;
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
