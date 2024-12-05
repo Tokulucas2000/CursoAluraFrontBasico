@@ -87,11 +87,72 @@ body{
     color: var(--cinza-secundario);
 }
 
-.secundario__botao {
-    display: inline-block;
-    margin-top: 1em;
+.terceiro{
+    align-items: center;
+    margin: 0 10em;
 }
 
-.container__descricao {
-    padding: 2em;
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+} 
+
+.dispositivos{
+    text-align: center;
+} 
+
+.dispositivos__titulos{
+    font-size: 48px;
+    color: var(--braco-principal);
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--braco-principal);
+} 
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 2em;
+} 
+
+.rodape__logo{
+    margin-bottom: 2em;
+}
+
+.rodape__lista{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+.lista__link{
+    margin-right: 2em;
+}
+
+.lista__link a{
+    font-size: 16px;   
+    color: var(--braco-principal);
+    text-decoration: none;
+}
+
+.rodape__texto{
+    margin-bottom: 2em;
+    font-size: 14px;   
+    width: 1200px;
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+} 
+
+.lista__link a:active{
+    color: purple;
 }
